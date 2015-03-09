@@ -2,7 +2,7 @@
   "name": "Widny-Chat",
   "author": "Widny St. Louis",
   "description": "Real-time screen share",
-  "version": "0.0.0.2",
+  "version": "0.0.0.4",
   "manifest_version": 2,
   "homepage_url": "http://tokbox.com/",
    "background": {
@@ -12,7 +12,7 @@
    "content_scripts": [ {
     "js": [ "content-script.js" ],
     "all_frames": true,
-    "matches": ["https://*.widny-chat.herokuapp.com/", "https://*.localhost:3000/"]
+    "matches": ["<all_urls>"]
    }],
 
    "icons": {
